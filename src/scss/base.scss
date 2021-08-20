@@ -1,0 +1,37 @@
+ $bg-color: #e5e5e5;
+ $or-color: #FF7E4A;
+ $ye-color: #F6B100;
+ $wh-color: #ffffff;
+
+body {
+ background: $bg-color;
+}
+.banner-1 {
+    background: $wh-color;
+    &__button {
+        background: $or-color;
+        color:$wh-color;
+    }
+    &__bold{
+        color: $or-color;
+    }
+    &__before{
+        color: grey;
+    }
+}
+.banner-2 {
+    background: $wh-color;
+    &__button {
+        background: $ye-color;
+    }
+    &__bold{
+        color: $ye-color;
+    }
+    &__button{
+        color:$wh-color;
+    }
+    &__before{
+        color: grey;
+    }
+}
+

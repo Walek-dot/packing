@@ -1,0 +1,38 @@
+$banone-font: 'Open Sans';
+$bantwo-font: 'Arial';
+
+.banner-1 {
+ font-family: $banone-font;
+ font-size: 17px;
+ line-height: 24px;
+ font-weight: 400;
+    &__button {
+        font-weight: bold;
+    }
+    &__before {
+        font-size: 12px;
+    }
+}
+.banner-2 {
+font-family: $bantwo-font;
+font-size: 15px;
+line-height: 24px;
+font-weight: 700;
+    &__button {
+        font-weight: bold;
+    }
+    &__before {
+        font-size: 12px;
+    }
+}
+@media (max-width:320px) {
+    .banner-1 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .banner-2 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
