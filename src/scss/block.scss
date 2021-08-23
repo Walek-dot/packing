@@ -1,6 +1,5 @@
 .container {
-margin-left: auto;
-margin-right: auto;
+margin:0 auto;
 max-width: 1200px;
 display: flex;
 flex-direction: column;
@@ -12,7 +11,8 @@ align-items: center;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        width: 672px;
+        padding: 0 24px;
+        max-width: 672px;
         height: 80px;
         margin-bottom: 50px;
     }
@@ -20,6 +20,7 @@ align-items: center;
         width: 444px;
     }
     &__button{
+        margin-left: 24px;
         height: 44px;
         width: 156px;
         box-shadow: 0px 6px 10px rgba(16, 17, 19, 0.1);
@@ -36,14 +37,16 @@ align-items: center;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        padding: 0 24px;
         border-radius: 16px;
-        width: 640px;
+        max-width: 640px;
         height: 80px;
     }
     &__stroke{
         width: 413px;
     }
     &__button{
+        margin-left: 20px;
         height: 48px;
         width: 159px;
         border-radius: 8px;
@@ -58,6 +61,7 @@ align-items: center;
 @media (max-width:320px) {
     .banner-1 {
         &__block{
+            padding: 0;
             flex-direction: column;
             width: 264px;
             height: 152px;
@@ -71,6 +75,7 @@ align-items: center;
             height: 40px;
             width: 145px;
             margin-bottom: 20px;
+            margin-left: 0;
         }
         &__before {
             margin-bottom: 4px;
@@ -78,6 +83,7 @@ align-items: center;
     }
     .banner-2 {
         &__block{
+            padding: 0;
             flex-direction: column;
             width: 296px;
             height: 148px;
@@ -89,6 +95,7 @@ align-items: center;
             letter-spacing: 0.1px;
         }
         &__button{
+            margin-left: 0;
             height: 36px;
             width: 124px;
             margin-bottom: 20px;
@@ -98,4 +105,4 @@ align-items: center;
         }
     }
 }
-
+    
